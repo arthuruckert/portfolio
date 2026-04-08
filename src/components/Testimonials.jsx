@@ -4,15 +4,16 @@ import CaseModal from './CaseModal'
 import { cases } from '../data/cases'
 import { useLanguage } from '../context/LanguageContext'
 import { t } from '../data/translations'
+import { assetUrl } from '../utils/assetUrl'
 
 const featured = [
   {
     caseId: 'neg',
     badge: '19,8M views',
     badgeAccent: '#06b6d4',
-    video: '/assets/img/neg_depoimento.mp4',
-    subtitles: '/assets/img/neg_depoimento.vtt',
-    subtitlesEn: '/assets/img/neg_depoimento.en.vtt',
+    video: assetUrl('/assets/img/neg_depoimento.mp4'),
+    subtitles: assetUrl('/assets/img/neg_depoimento.vtt'),
+    subtitlesEn: assetUrl('/assets/img/neg_depoimento.en.vtt'),
     quote: 'De 9K para 136K no Instagram e 868K no TikTok. Arthur entendeu que o problema não era o conteúdo — era a distribuição. Com a estratégia certa, um vídeo impulsionado explodia organicamente.',
     quoteEn: 'From 9K to 136K on Instagram and 868K on TikTok. Arthur understood the problem wasn\'t the content — it was distribution. With the right strategy, a boosted video exploded organically.',
     author: 'Negãozin',
@@ -23,9 +24,9 @@ const featured = [
     caseId: 'ks',
     badge: '↓79% CPL',
     badgeAccent: '#e63946',
-    video: '/assets/img/ks_depoimento.mp4',
-    subtitles: '/assets/img/ks_depoimento.vtt',
-    subtitlesEn: '/assets/img/ks_depoimento.en.vtt',
+    video: assetUrl('/assets/img/ks_depoimento.mp4'),
+    subtitles: assetUrl('/assets/img/ks_depoimento.vtt'),
+    subtitlesEn: assetUrl('/assets/img/ks_depoimento.en.vtt'),
     quote: 'Arthur entendeu o nosso negócio, identificou onde estávamos perdendo dinheiro e entregou resultados reais em poucas semanas. O CPL caiu mais de 79% e a qualidade dos leads melhorou muito.',
     quoteEn: 'Arthur understood our business, identified where we were losing money, and delivered real results in just a few weeks. CPL dropped over 79% and lead quality improved significantly.',
     author: 'Valmor',
@@ -36,9 +37,9 @@ const featured = [
     caseId: 'ct',
     badge: 'ROAS 6-7x',
     badgeAccent: '#f59e0b',
-    video: '/assets/img/ct_depoimento.mp4',
-    subtitles: '/assets/img/ct_depoimento.vtt',
-    subtitlesEn: '/assets/img/ct_depoimento.en.vtt',
+    video: assetUrl('/assets/img/ct_depoimento.mp4'),
+    subtitles: assetUrl('/assets/img/ct_depoimento.vtt'),
+    subtitlesEn: assetUrl('/assets/img/ct_depoimento.en.vtt'),
     quote: 'As campanhas trouxeram o crescimento que precisávamos — tanto em audiência quanto em vendas. De 7K para 32K seguidores com ROAS 6-7x. A collab com YSL amplificou tudo.',
     quoteEn: 'The campaigns brought the growth we needed — both in audience and in sales. From 7K to 32K followers with ROAS 6-7x. The YSL collab amplified everything.',
     author: 'Fundadora',

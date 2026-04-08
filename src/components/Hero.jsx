@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import Magnetic from './Magnetic'
 import { useLanguage } from '../context/LanguageContext'
 import { t } from '../data/translations'
+import { assetUrl } from '../utils/assetUrl'
 
 export default function Hero() {
   const { lang } = useLanguage()
@@ -185,7 +186,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/arthur.jpg"
+          src={assetUrl('/arthur.jpg')}
           alt="Arthur Rückert"
           className="hero-photo"
           style={{

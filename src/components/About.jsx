@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useLanguage } from '../context/LanguageContext'
 import { t } from '../data/translations'
+import { assetUrl } from '../utils/assetUrl'
 
 const stack = [
   'Meta Ads', 'Google Ads', 'TikTok Ads',
@@ -93,7 +94,7 @@ export default function About() {
               }}
             >
               <img
-                src="/arthur.jpg"
+                src={assetUrl('/arthur.jpg')}
                 alt="Arthur Rückert"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
               />
