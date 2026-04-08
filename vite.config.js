@@ -7,14 +7,5 @@ export default defineConfig({
   base: '/portfolio/',
   server: {
     port: 3002,
-    fs: {
-      allow: [
-        '/Users/ruckert/POTIFOLIO ARTHUR/site-v2',
-        '/Users/ruckert/POTIFOLIO ARTHUR/site/assets',
-      ],
-    },
-  },
-  resolve: {
-    preserveSymlinks: true,
   },
 })
