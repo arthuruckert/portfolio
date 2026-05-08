@@ -75,7 +75,7 @@ function ResultsSection({ c, onZoom, ui }) {
           color: c.accent, border: `1px solid ${c.accent}40`,
           padding: '2px 8px', borderRadius: 100,
           background: `${c.accent}10`,
-        }}>{imgs.length} print{imgs.length > 1 ? 's' : ''}</span>
+        }}>{c.resultsLabel || `${imgs.length} print${imgs.length > 1 ? 's' : ''}`}</span>
       </div>
 
       {/* Screenshots */}

@@ -11,7 +11,7 @@ export const translations = {
 
     hero: {
       status: 'Disponível para projetos',
-      location: 'Brasil · Europa · Remote',
+      location: 'Remote',
       roleTag: 'Media Buyer · Meta Ads Specialist',
       description:
         'Gosto de entender o negócio antes de tocar em qualquer campanha. A partir daí, construo criativos que educam antes de converter, estruturo funis que sustentam o ROAS mesmo com o budget crescendo e tomo decisões com base em dados reais.',
@@ -148,7 +148,7 @@ export const translations = {
 
     hero: {
       status: 'Available for projects',
-      location: 'Brazil · Europe · Remote',
+      location: 'Remote',
       roleTag: 'Media Buyer · Meta Ads Specialist',
       description:
         'I like to understand the business before touching any campaign. From there, I build creatives that educate before converting, structure funnels that sustain ROAS even as budget scales, and make decisions based on real data.',

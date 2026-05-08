@@ -74,10 +74,10 @@ export const cases = [
     tag: 'AI SaaS · Silicon Valley',
     headline: '0 para 500 assinaturas em 3 mercados.',
     metrics: [
-      { value: '0 → 500', label: 'Assinaturas pagas' },
-      { value: '3', label: 'Mercados internacionais' },
-      { value: 'EUA', label: 'Mercado principal' },
-      { value: 'AI', label: 'Silicon Valley' },
+      { value: '10.86K', label: 'Usuários ativos/mês' },
+      { value: '2.175', label: 'Cadastros em 6 meses' },
+      { value: '636', label: 'Novos cadastros (30d)' },
+      { value: 'EUA #1', label: 'Mercado principal' },
     ],
     story: [
       { step: '01 · O DESAFIO', title: 'Produto novo, zero audiência', text: 'Pick My Brain chegou sem nenhuma base de usuários e com o desafio de lançar uma plataforma AI num mercado extremamente competitivo nos EUA.' },
@@ -89,10 +89,10 @@ export const cases = [
       tag: 'AI SaaS · Silicon Valley',
       headline: '0 to 500 paid subscribers across 3 markets.',
       metrics: [
-        { value: '0 → 500', label: 'Paid subscribers' },
-        { value: '3', label: 'International markets' },
-        { value: 'USA', label: 'Primary market' },
-        { value: 'AI', label: 'Silicon Valley' },
+        { value: '10.86K', label: 'Monthly active users' },
+        { value: '2,175', label: 'Signups in 6 months' },
+        { value: '636', label: 'New signups (30d)' },
+        { value: 'USA #1', label: 'Primary market' },
       ],
       story: [
         { step: '01 · THE CHALLENGE', title: 'New product, zero audience', text: 'Pick My Brain launched with no user base, facing the challenge of entering an extremely competitive AI platform market in the US.' },
@@ -123,7 +123,14 @@ export const cases = [
       { src: img('/assets/img/image-12-2.jpg'), caption: 'Daily Briefing · Silicon Valley' },
       { src: img('/assets/img/image-12-3.jpg'), caption: 'Strategy Meeting · Remote' },
     ],
+    resultsLabel: 'Resultados das Inscrições Ativas',
     resultsImage: img('/assets/img/pmb_result.png'),
+    resultsImages: [
+      img('/assets/img/pmb-analytics-1.jpg'),
+      img('/assets/img/pmb-analytics-2.jpg'),
+      img('/assets/img/pmb-analytics-3.jpg'),
+      img('/assets/img/pmb-analytics-4.jpg'),
+    ],
   },
   {
     id: 'mossy',
