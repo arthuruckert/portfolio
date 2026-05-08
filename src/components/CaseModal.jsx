@@ -107,11 +107,6 @@ function ResultsSection({ c, onZoom, ui }) {
                     <div key={di} style={{ width: 8, height: 8, borderRadius: '50%', background: col, opacity: 0.7 }} />
                   ))}
                 </div>
-                <span style={{
-                  fontSize: 9, color: 'rgba(255,255,255,0.3)',
-                  letterSpacing: '0.08em', textTransform: 'uppercase',
-                  marginLeft: 4, fontWeight: 600,
-                }}>{RESULT_LABELS[i] || `Print ${i + 1}`}</span>
               </div>
               <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.2)' }}>{ui.zoom}</span>
             </div>
