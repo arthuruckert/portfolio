@@ -573,9 +573,21 @@ export const cases = [
     },
     accent: '#0ea5e9',
     instagram: 'https://www.instagram.com/cherubbaby/',
-    image: img('/assets/img/cb_logo.jpg'),
+    image: img('/assets/img/cb-shopify-analytics.jpg'),
     logo: img('/assets/img/cb_logo.jpg'),
     logoBg: '#f5f0eb',
+    gallery: [
+      img('/assets/img/cb-shopify-products.jpg'),
+      img('/assets/img/cb-orders-1.png'),
+      img('/assets/img/cb-orders-2.png'),
+      img('/assets/img/cb-orders-3.png'),
+    ],
     resultsLabel: 'Resultados das campanhas',
+    resultsImages: [
+      img('/assets/img/cb-shopify-analytics.jpg'),
+      img('/assets/img/cb-shopify-grosssales.jpg'),
+      img('/assets/img/cb-orders-1.png'),
+      img('/assets/img/cb-orders-2.png'),
+    ],
   },
 ]
