@@ -588,6 +588,7 @@ export const cases = [
       img('/assets/img/cb-meta-month.jpg'),
       img('/assets/img/cb-shopify-analytics.jpg'),
       img('/assets/img/cb-shopify-grosssales.jpg'),
+      img('/assets/img/cb-orders-today.png'),
       img('/assets/img/cb-orders-1.png'),
       img('/assets/img/cb-orders-2.png'),
     ],
