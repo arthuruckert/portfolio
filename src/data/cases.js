@@ -584,6 +584,8 @@ export const cases = [
     ],
     resultsLabel: 'Resultados das campanhas',
     resultsImages: [
+      img('/assets/img/cb-meta-30d.jpg'),
+      img('/assets/img/cb-meta-month.jpg'),
       img('/assets/img/cb-shopify-analytics.jpg'),
       img('/assets/img/cb-shopify-grosssales.jpg'),
       img('/assets/img/cb-orders-1.png'),
