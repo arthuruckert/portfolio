@@ -457,7 +457,8 @@ export const cases = [
     },
     accent: '#d97706',
     instagram: 'https://instagram.com/ericrichardsonofficial',
-    image: img('/assets/img/er_live.jpeg'),
+    image: img('/assets/img/er_promo.jpeg'),
+    imagePosition: 'top',
     logo: img('/assets/img/er_promo2.jpeg'),
     logoRound: true,
     gallery: [

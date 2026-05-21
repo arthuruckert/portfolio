@@ -199,7 +199,7 @@ export default function CaseModal({ c, onClose }) {
               <img
                 src={c.image}
                 alt={c.client}
-                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: c.imagePosition || 'center', display: 'block' }}
                 onError={e => { e.target.style.display = 'none' }}
               />
               <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(to top, #0e0e0e 0%, rgba(14,14,14,0.1) 55%)` }} />
