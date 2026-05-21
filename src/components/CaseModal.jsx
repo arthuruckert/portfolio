@@ -417,7 +417,7 @@ export default function CaseModal({ c, onClose }) {
                       background: '#111', cursor: 'zoom-in', position: 'relative',
                     }}>
                       <img src={photo.src} alt={photo.caption}
-                        style={{ width: '100%', display: 'block', maxHeight: 360, objectFit: 'cover', transition: 'opacity 0.2s' }}
+                        style={{ width: '100%', display: 'block', maxHeight: 360, objectFit: 'cover', objectPosition: photo.position || 'center', transition: 'opacity 0.2s' }}
                         onMouseEnter={e => e.target.style.opacity = '0.88'}
                         onMouseLeave={e => e.target.style.opacity = '1'}
                         onError={e => e.target.parentElement.style.display = 'none'}
@@ -455,7 +455,7 @@ export default function CaseModal({ c, onClose }) {
                   <img
                     src={loc('clientPhoto').src}
                     alt={loc('clientPhoto').caption}
-                    style={{ width: '100%', display: 'block', maxHeight: 360, objectFit: 'cover', transition: 'opacity 0.2s' }}
+                    style={{ width: '100%', display: 'block', maxHeight: 360, objectFit: 'cover', objectPosition: loc('clientPhoto').position || 'center', transition: 'opacity 0.2s' }}
                     onMouseEnter={e => e.target.style.opacity = '0.88'}
                     onMouseLeave={e => e.target.style.opacity = '1'}
                     onError={e => e.target.parentElement.style.display = 'none'}

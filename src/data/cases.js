@@ -451,8 +451,8 @@ export const cases = [
         { step: '04 · THE RESULT', title: '$34K invested → 547 calls booked', text: 'With $34,084 invested in call booking campaigns in April and an active $2,000/day budget, we generated 547 booked calls and 1,003 webinar signups — a stable, scalable funnel.' },
       ],
       clientPhotos: [
-        { src: img('/assets/img/er_live.jpeg'), caption: 'Live Training · Eric Rich' },
-        { src: img('/assets/img/er_promo.jpeg'), caption: 'Eric Richardson · Surplus Funds Profit System' },
+        { src: img('/assets/img/er_promo2.jpeg'), caption: 'Eric Richardson · Surplus Funds Profit System', position: 'top' },
+        { src: img('/assets/img/er_promo.jpeg'), caption: 'Eric Richardson · Live Training', position: 'top' },
       ],
     },
     accent: '#d97706',
@@ -466,8 +466,8 @@ export const cases = [
       img('/assets/img/er_live.jpeg'),
     ],
     clientPhotos: [
-      { src: img('/assets/img/er_live.jpeg'), caption: 'Treinamento presencial · Eric Rich' },
-      { src: img('/assets/img/er_promo.jpeg'), caption: 'Eric Richardson · Surplus Funds Profit System' },
+      { src: img('/assets/img/er_promo2.jpeg'), caption: 'Eric Richardson · Surplus Funds Profit System', position: 'top' },
+      { src: img('/assets/img/er_promo.jpeg'), caption: 'Eric Richardson · Live Training', position: 'top' },
     ],
     resultsLabel: 'Resultados da campanha',
     resultsImages: [
