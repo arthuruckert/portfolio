@@ -6,7 +6,7 @@ import CasesScroll from './components/CasesScroll'
 import Services from './components/Services'
 import About from './components/About'
 import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
+import LeadForm from './components/LeadForm'
 import Footer from './components/Footer'
 import { LanguageProvider } from './context/LanguageContext'
 import './index.css'
@@ -25,7 +25,7 @@ export default function App() {
         <Services />
         <About />
         <Testimonials />
-        <Contact />
+        <LeadForm />
       </main>
       <Footer />
     </LanguageProvider>
