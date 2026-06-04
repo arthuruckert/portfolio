@@ -1,6 +1,15 @@
 const BASE = import.meta.env.BASE_URL
 const img = (p) => `${BASE}${p.replace(/^\//, '')}`
 
+export const highlights = [
+  { num: 'ROAS 19x',   label: 'Retorno sobre investimento', ref: 'Pick My Brain · SaaS' },
+  { num: '$1,34',      label: 'CPL médio gerado',           ref: 'Pick My Brain · Lead Gen' },
+  { num: '$200K+',     label: 'Adspend mensal gerenciado',  ref: 'Global · Múltiplas marcas' },
+  { num: '50+',        label: 'Marcas atendidas',           ref: 'Brasil · EUA · Europa' },
+  { num: '79%',        label: 'Redução de CPL',             ref: 'KS Metais · B2B' },
+  { num: '4.79x',      label: 'ROAS e-commerce',            ref: 'Cherub Baby · Austrália' },
+]
+
 export const cases = [
   {
     id: 'er',

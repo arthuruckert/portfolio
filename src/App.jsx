@@ -3,7 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Bento from './components/Bento'
 import CasesScroll from './components/CasesScroll'
+import Results from './components/Results'
 import Services from './components/Services'
+import Process from './components/Process'
 import About from './components/About'
 import Testimonials from './components/Testimonials'
 import LeadForm from './components/LeadForm'
@@ -22,7 +24,9 @@ export default function App() {
         <Hero />
         <Bento />
         <CasesScroll />
+        <Results />
         <Services />
+        <Process />
         <About />
         <Testimonials />
         <LeadForm />
